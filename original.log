@@ -1,0 +1,2264 @@
+commit 141cb41076a317aaf54584a23a4e11d897035c0a
+Author: Kevin Hopkins <kevin@wearefound.com>
+Date:   Wed Nov 23 01:25:00 2011 -0500
+
+    added in fallback for chunk in generate_uniq_filename_from to support the case of using StringIO where the file is in memory
+
+commit cb3e257ccf20149daeb98115791b933b0b1d8e33
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 8 16:06:29 2011 -0600
+
+    Update README.rdoc
+
+commit 032f2800ae4c4ab9f6000b23150e3a8d3517815f
+Author: chebyte <maurotorres@gmail.com>
+Date:   Mon Oct 3 18:13:43 2011 -0300
+
+    disable ssl verify
+
+commit d05fa8b20985d2533a411a4b34491b80b9eeab9d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Sep 2 07:24:10 2011 -0500
+
+    moved demo and example to top
+
+commit 39854a8d93d1267d677b8081b0d1d8e88fb87251
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Sep 2 07:21:41 2011 -0500
+
+    Regenerate gemspec for version 2.0.1
+
+commit f24afc34575b2672660c1d62df1c10894a9972fd
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Sep 2 07:21:35 2011 -0500
+
+    Version bump to 2.0.1
+
+commit 93e522168f7717308511a0286537f4bba9a68b86
+Merge: 0ecc867 844c5f1
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Sep 2 07:20:58 2011 -0500
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit 844c5f11279b57ebd474c86e3c6a33b6e6e3fa14
+Author: chebyte <maurotorres@gmail.com>
+Date:   Thu Sep 1 12:33:58 2011 -0300
+
+    adding demo and rails app example
+
+commit d485eefa94e49b33742e4d2578a0ad99e6fc5463
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Aug 31 16:42:00 2011 -0300
+
+    adding support for html5 video embed
+
+commit 5c803257957ad1155b69c24283b9c53c8b2f71ea
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Aug 31 15:23:52 2011 -0300
+
+    fixing authentication Problem with Public Data
+
+commit d39b2c50e686dead8be0fef7411841a5872e976e
+Merge: cede07d c98f28d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Aug 23 06:23:06 2011 -0700
+
+    Merge pull request #26 from jimmyblanchard/master
+    
+    User activity feed, contacts, and avatar support.
+
+commit c98f28dfa653ab0520952a30abdf7b553d02136b
+Author: name <jimmyblanchard@gmail.com>
+Date:   Mon Aug 22 16:03:25 2011 -0400
+
+    - Added support for user contacts and user activity feeds.
+    - Added user avatar support.
+
+commit 0ecc8673f9bc8b07ed730ac2a68629f7085dc7ab
+Author: Pawel Lewinski <lewy313@gmail.com>
+Date:   Tue Aug 2 19:42:43 2011 +0800
+
+    feed parser now raise 404 exception if not found movie with given youtube_id
+
+commit cede07df2791cfd31a37a77e62217ced663deb02
+Author: Pawel Lewinski <lewy313@gmail.com>
+Date:   Tue Aug 2 19:42:43 2011 +0800
+
+    feed parser now raise 404 exception if not found movie with given youtube_id
+
+commit 9c9c3effebabe2116c31aa052c25e74705420097
+Merge: 791e2f2 3b38e4f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Jul 28 05:08:52 2011 -0700
+
+    Merge pull request #25 from philippelegrain/master
+    
+    pull request :-)
+
+commit 01418e4670971252e24bedb9f72bc1464f05e028
+Merge: 791e2f2 3b38e4f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Jul 28 05:08:52 2011 -0700
+
+    Merge pull request #25 from philippelegrain/master
+    
+    pull request :-)
+
+commit 3b38e4fba4f8fd6f52376b98fd3809f821feed24
+Author: Philippe Legrain <pl@redstorm.be>
+Date:   Wed Jul 27 18:38:35 2011 +0200
+
+    added author picture url to author model
+
+commit d79bd3e29fd44f5b834b91f976932306caa9d95a
+Author: Philippe Legrain <pl@redstorm.be>
+Date:   Wed Jul 27 18:17:39 2011 +0200
+
+    added unique id to comment
+
+commit 791e2f2abb4d902e780fd48eefe23b566a6f7a31
+Author: chebyte <maurotorres@gmail.com>
+Date:   Thu Jul 7 10:02:54 2011 -0300
+
+    adding faraday for oauth current user method
+
+commit df73ee4f02ca8cc8cbae03d9f2b2e2f55a41f840
+Author: chebyte <maurotorres@gmail.com>
+Date:   Mon Jul 4 12:54:24 2011 -0300
+
+    improving middleware for auth headers
+
+commit 16f379253fb35bcd390e623e9107e5e6f17cfb78
+Author: chebyte <maurotorres@gmail.com>
+Date:   Sat Jul 2 08:52:46 2011 -0300
+
+    fixing favorites and improving faraday session
+
+commit 84023f0594ff30cd499d1c0107014a1d3559c5ab
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sat Jul 2 07:39:02 2011 -0500
+
+    Regenerate gemspec for version 2.0.0
+
+commit 38402766a1e8ef9a756d31987eb989c1101b66e8
+Merge: fd53ecd 319844c
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sat Jul 2 07:38:56 2011 -0500
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit fd53ecdd672bdda0f4aeee3a4b93f9e7ea6fc5f1
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sat Jul 2 07:38:49 2011 -0500
+
+    Version bump to 2.0.0
+
+commit 319844ca4d02143210023c0c149d45a4e7a09ac6
+Author: chebyte <maurotorres@gmail.com>
+Date:   Fri Jul 1 18:49:10 2011 -0300
+
+    fixing favorites list
+
+commit 743e72ffdbe556f4dca6ca5c135ff81aab043871
+Author: chebyte <maurotorres@gmail.com>
+Date:   Thu Jun 30 13:43:53 2011 -0300
+
+    adding faraday support
+
+commit 0030eb6c50159494d42c429bccc9e9e517d8560e
+Author: chebyte <maurotorres@gmail.com>
+Date:   Thu Jun 30 13:43:30 2011 -0300
+
+    fixing test
+
+commit 23a11adb549e9999d12889cfab4ce53d79b0bf1c
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Jun 29 10:59:18 2011 -0300
+
+    updating readme
+
+commit 9e630133fa498844384f7fd44f62a110b43f01a3
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Jun 29 10:37:14 2011 -0300
+
+    adding view_count filters
+
+commit 63d387917772018ca3cf202084a499216411c97f
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Jun 29 09:54:04 2011 -0300
+
+    fixing profile method
+
+commit 0ac756c0fc9b949f0702ee2229a5f8a6ba880b9f
+Author: chebyte <maurotorres@gmail.com>
+Date:   Wed Jun 29 09:45:42 2011 -0300
+
+    adding support for subscriptions
+
+commit 2fb7c13b08ae376c59a3a942c3aad5b3cb23b1ca
+Author: chebyte <maurotorres@gmail.com>
+Date:   Tue Jun 28 16:54:24 2011 -0300
+
+    fixing my_videos method
+
+commit 2244408cb7a06e983216d15fd2ea2bcc401c6873
+Merge: c90e05f 593fc30
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Jun 28 10:42:26 2011 -0500
+
+    clean up of directories and files to help reduce gem size
+
+commit c90e05f30feacc5f83f17d5c3437c66e71243fd4
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Jun 28 10:42:07 2011 -0500
+
+    clean up of directories and files to help reduce gem size
+
+commit 593fc3073b8d7a4d60c88e3d135d6772d19cb90c
+Author: Sandy <sandy.vanderbleek@gmail.com>
+Date:   Wed Jun 22 02:20:31 2011 +0800
+
+    Edited TODO.txt via GitHub
+
+commit ad25e7170c9acdc34fb0d5cf659d9ba6c28d4d7b
+Author: Johannes Barre <johannes.barre@e-7.com>
+Date:   Thu Jun 9 23:46:24 2011 +0800
+
+    my_video & my_videos added
+
+commit e9e7243577bcae714d967537a277ba2d1e03ce62
+Author: Johannes Barre <johannes.barre@e-7.com>
+Date:   Thu Jun 9 22:59:28 2011 +0800
+
+    Added state to video
+
+commit 0781cfc06469473fe7d0ef5f11779e0c57c50805
+Author: Matt Clark <winescout@gmail.com>
+Date:   Tue Jun 7 01:22:44 2011 +0800
+
+    released date search working
+
+commit 849f805a15d25c8a26c4c74bf76074d35613408b
+Merge: fdb2dd7 6c60415
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Jun 21 07:11:27 2011 -0700
+
+    Merge pull request #21 from masterkain/patch-1
+    
+    Fix playlists method to include authentication.
+
+commit 6c604154328cd106ae55ad148816ef85cb763be9
+Author: Claudio Poli <masterkain@gmail.com>
+Date:   Sat Jun 11 03:33:48 2011 -0700
+
+    Fix playlists method to include authentication.
+    http://code.google.com/intl/it-IT/apis/youtube/2.0/developers_guide_protocol.html#Playlists
+
+commit fdb2dd72577c39d67abd798dc7b1b51b31822697
+Merge: 45c82cf 06ccf2f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sun Jun 5 05:24:44 2011 -0700
+
+    Merge pull request #20 from girishso/master
+    
+    Added like/dislike video and subscribe channel features.
+
+commit 06ccf2fa3e881e7b303a9b25bb00ffba9353c718
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Sun Jun 5 14:11:06 2011 +0530
+
+    added like_video, dislike_video and subscribe_channel usage information in README.rdoc
+
+commit efae87134aa60fd4725b3634e1ce1af45063bec2
+Merge: 328fa4a 45c82cf
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Sun Jun 5 11:44:57 2011 +0530
+
+    merged with upstream/master
+
+commit 45c82cfe7f08d95ce3bcb66bc99ea84c5cdf494a
+Author: Matt Clark <winescout@gmail.com>
+Date:   Fri Jun 3 23:24:46 2011 +0800
+
+    can search for recorded dates
+
+commit 80b4168c970ba7a77bdbaa39502fa6ede7faac07
+Author: mauro <maurotorres@gmail.com>
+Date:   Fri Jun 3 12:27:05 2011 -0300
+
+    fixing tests
+
+commit 01b332c52fdfefcf801eff2105f969440c8d207e
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:07:06 2011 -0500
+
+    last build in repo
+
+commit 53970e1de2297a4bf908ccfeed5016c583f77d48
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:06:19 2011 -0500
+
+    Regenerate gemspec for version 1.4.3
+
+commit 056f57f4701342b3c5a12bdf4579623f396ba11f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:06:01 2011 -0500
+
+    releasing new favorites feature
+
+commit 9b6f2792974eba5d289ce0e44fe1567fe8ce4c5b
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:05:38 2011 -0500
+
+    Version bump to 1.4.3
+
+commit 64fea3b6dda0306034c1256d72424319630b012c
+Merge: e995a9c f6cc79c
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:04:47 2011 -0500
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit e995a9c4a3629d12409e52b5c79945023994d329
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 12:04:41 2011 -0500
+
+    last gem
+
+commit f6cc79c3430c0bbbccf9a26ac4d9a8ad451bda37
+Merge: 3222926 5244906
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon May 30 06:44:09 2011 -0700
+
+    Merge pull request #19 from chytreg/dev
+    
+    favorites function can take options, favorite videos parser
+
+commit 328fa4a8af037288983688e0a1e2fccd3167eab9
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Wed May 25 21:18:09 2011 +0530
+
+    set http status code in UploadError
+
+commit 72752e81db8404d7d4f15a505181a6b6b069dbe3
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Wed May 25 20:13:00 2011 +0530
+
+    subscribe channel feature
+
+commit c98cfd8aee0509dd1108e52c015a77f157d06703
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Tue May 24 15:53:55 2011 +0530
+
+    ratings (like/dislike) support
+
+commit 2482456046a749d2dcc22e625098a7ee686c6618
+Author: Girish S <girish.sonawane@gmail.com>
+Date:   Tue May 24 12:42:21 2011 +0530
+
+    if userid is not specified for client.profile the authenticated user's profile is returned
+
+commit 32229267cfd4d45210308455dfcec1ee3ac73704
+Author: mauro <maurotorres@gmail.com>
+Date:   Mon May 23 16:22:45 2011 -0300
+
+    delete gem
+
+commit 524490680a14e5a0f71d8ed96eb6477680544490
+Author: chytreg <dariusz.gertych@gmail.com>
+Date:   Tue Apr 12 18:02:27 2011 +0200
+
+    favorites function can take options, favorite videos parser
+
+commit b9b8fc2e675f9dde56d3f455158c5cab9f0e2e3f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Apr 8 18:47:14 2011 -0500
+
+    Regenerate gemspec for version 1.4.2
+
+commit 9126333331d6b5aeecfa9e2b5b0357d342755d70
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Apr 8 18:47:06 2011 -0500
+
+    Version bump to 1.4.2
+
+commit 7554afef4f44258cf1aa5fba4d97699587ff0170
+Merge: 3b200aa 5541784
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Apr 8 18:45:31 2011 -0500
+
+    Merge branch 'master' of https://github.com/alexis/youtube_it into alexis-master
+
+commit 3b200aa4f899e55516af9ab4ffb9194bf6def44a
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Apr 8 18:44:53 2011 -0500
+
+    pkg
+
+commit 55417843c1d813a139d6cee5aa5d9ef1c6a31527
+Author: Alexey Smolianinov <alexisowl@gmail.com>
+Date:   Thu Apr 7 15:35:57 2011 +0400
+
+    fix for YouTubeIt::Upload::AuthenticationError
+
+commit 825f1c6bf62da3ce76bc3ce43e8dbd4af5c1bc1a
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 16:08:56 2011 -0600
+
+    Regenerate gemspec for version 1.4.1
+
+commit 96dc1387f163ec5362b43e833130fb61dd40e151
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 16:08:49 2011 -0600
+
+    Version bump to 1.4.1
+
+commit aee7322562a89b409dd6d1d556ccafe9997eafcc
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 16:08:28 2011 -0600
+
+    more readme clean up
+
+commit fad2485a50988ce57850dbd8e105627123a4d116
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 16:03:24 2011 -0600
+
+    more readme clean up
+
+commit acf6e8974f21bd115989196d24307c9ada5a99d0
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:54:53 2011 -0600
+
+    more readme clean up
+
+commit 87b0dd2a5f90d57e3c82800277242a3ecccb0f1e
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:54:21 2011 -0600
+
+    more readme clean up
+
+commit 9eefbe7f35b1650a367410f39a3ea3e5516c4e8b
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:52:54 2011 -0600
+
+    more readme clean up
+
+commit c72755183cabc31ce3cfcabe09e1171225e9b7d2
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:24:04 2011 -0600
+
+    readme clean up
+
+commit c95490219e2bca61e08ac10aa289635815d61abd
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:23:57 2011 -0600
+
+    readme clean up
+
+commit 321789be0907a1f6707bb168e8005cf7d413111f
+Merge: d755ce0 3930d29
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:17:37 2011 -0600
+
+    Merge branch 'master' of https://github.com/mseppae/youtube_it
+
+commit d755ce0559ee26ad915b86025da05d2094048b6f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Feb 24 15:17:15 2011 -0600
+
+    removeing gem package
+
+commit 3930d29c92407796c4670b110c84d4a25d0da6ff
+Author: Marko Seppä <marko.seppa@gmail.com>
+Date:   Thu Feb 24 21:58:40 2011 +0100
+
+    Video#unique_id works now (id tag changed on v=2)
+
+commit 0bdef3ba7f343d3064fd3d334589a877053f587e
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 17:31:18 2011 -0600
+
+    Regenerate gemspec for version 1.4.0
+
+commit 31541a1de98bb0c665911a65f6ee885d6a2dae13
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 17:31:03 2011 -0600
+
+    merge comment feed changes
+
+commit 63d199d8e1b973613f10872ff70adaff6fde79d0
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 17:30:28 2011 -0600
+
+    Version bump to 1.4.0
+
+commit 7610e7e42c1f4897c0aff77ecf556607350f1e38
+Merge: d0e638f 54b48bb
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 17:26:46 2011 -0600
+
+    Merge branch 'master' of https://github.com/zentrification/youtube_it into zentrification-master
+
+commit 54b48bb6f8929c5b04041913705fdf1afc88df39
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Wed Feb 23 16:49:34 2011 -0500
+
+    uncommented logger line when request is submitted
+
+commit 05e1f792aeffd2fd6e71c99c45dddcffb2397fe7
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Wed Feb 23 16:47:32 2011 -0500
+
+    updated README on how to get user profiles
+
+commit 80922ee8a420de7a19e68a4707c645a9656b8775
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Wed Feb 23 16:41:20 2011 -0500
+
+    updated test for new comment feed parser
+
+commit d0e638f01e5275dad38d21209c2e07f1800ecb87
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 12:15:54 2011 -0600
+
+    Regenerate gemspec for version 1.3.1
+
+commit 25f40e2755c6841b7e51eaa28d47a151d1233f08
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 12:15:50 2011 -0600
+
+    Version bump to 1.3.1
+
+commit 7ac3ef8a2f219b6dfcc28602cbf863e0d91d20f2
+Merge: f53ad4d 96ce533
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 23 12:14:53 2011 -0600
+
+    Merge branch 'master' of https://github.com/mseppae/youtube_it
+
+commit 96ce533bf78557aa069b6b2505bd9e0f9164a9a7
+Author: Marko Seppä <marko.seppa@gmail.com>
+Date:   Wed Feb 23 15:58:35 2011 +0100
+
+    fixed irritating error with comma, that caused likes to result as [likes, dislikes] array
+
+commit f53ad4dbc92baacfc16eaff70db842fe02b58508
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Feb 22 19:01:27 2011 -0600
+
+    Regenerate gemspec for version 1.3.0
+
+commit 93f3a4a7dee46203ee238a567d9fe533ba2aa481
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Feb 22 19:01:21 2011 -0600
+
+    Version bump to 1.3.0
+
+commit 4eef324a750bedde4a12556a1b43a2c5e35d984f
+Author: Marko Seppä <marko.seppa@gmail.com>
+Date:   Tue Feb 22 08:57:13 2011 +0100
+
+    added likes and dislikes to rating, fixed nil errors with media:group values when video is not available in the region, uses youtube version 2 api
+
+commit d5931995a64927e8bdbd18ae4e60895811bcbcba
+Author: Marko Seppä <marko.seppa@gmail.com>
+Date:   Tue Feb 22 08:55:43 2011 +0100
+
+    starting conversion to version 2 of youtube api
+
+commit 137d3b03f9aaa0004feacd42661231296c1ab31f
+Author: Marko Seppä <marko.seppa@gmail.com>
+Date:   Tue Feb 22 08:54:43 2011 +0100
+
+    fixed a typo
+
+commit b126c17395f193e4abfb099c87e80db054ceb41c
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 20:21:43 2011 -0600
+
+    catch both 401 and 403
+
+commit 9bd6f473a49f4cdff91c41e72e568bb2c2ef4bc0
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 20:10:49 2011 -0600
+
+    Regenerate gemspec for version 1.2.10
+
+commit 5f23f88a9c936a2f79687833a8e23753456da327
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 20:10:38 2011 -0600
+
+    Version bump to 1.2.10
+
+commit bb9cc82bad07a4358ae620c471d5afbe8a3ac38d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 20:10:00 2011 -0600
+
+    google doesn't use 401 or 403 for oauth fail
+
+commit eff384d4a08f34f7ad874e42f5a24f60d0e282b9
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:46:30 2011 -0600
+
+    Regenerate gemspec for version 1.2.9
+
+commit 6fa00f52361346c4d9575391a26ea2d8383877c0
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:46:26 2011 -0600
+
+    remove older gems
+
+commit 7a7d93da55541b71ac3c4e695c418358ec3a9cc3
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:43:13 2011 -0600
+
+    Regenerate gemspec for version 1.2.9
+
+commit 4c33ca03fdbdf8ab5b4b09478a1a46b3c1c1435f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:42:53 2011 -0600
+
+    remove older gems
+
+commit 3a9661708ba261e28b4e1e5f0d53a87ca9a410e0
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:42:50 2011 -0600
+
+    Version bump to 1.2.9
+
+commit b3f70eaf21b21f1db79a5fbb7a06c3bec1e10c65
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:14:37 2011 -0600
+
+    Regenerate gemspec for version 1.2.8
+
+commit 222373a201ce08b3b495c660d8e17f7ce55df4a8
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:14:28 2011 -0600
+
+    Version bump to 1.2.8
+
+commit 5a2f158d8a695d7081f227165c06e41298e491c8
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 19:13:05 2011 -0600
+
+    remove older gems
+
+commit 2a4b7e5e2e2699263e133dfb774a87421a45095f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 18:50:29 2011 -0600
+
+    remove older gems
+
+commit 98eb3d495bb14f8e3ea4e911e793138025ebe325
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 18:49:55 2011 -0600
+
+    remove older gems
+
+commit 9fb57a059509b40478f25374e6291f34f187aaee
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 08:12:28 2011 -0600
+
+    Regenerate gemspec for version 1.2.7
+
+commit ec8542ff7dffeda946e6201151a8cffa821c189b
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Feb 2 08:12:22 2011 -0600
+
+    Version bump to 1.2.7
+
+commit 07d28ba486e393b835c3146bfbd6624c3bc44cd7
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Feb 2 10:27:58 2011 -0300
+
+    return empty array for empty query
+
+commit a29389112cde3332c41c9f6de2110f32af3aefe8
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Feb 1 18:33:09 2011 -0600
+
+    gem file
+
+commit 6c7ff9c0e04fba638f8b65773a75455bc06bb02c
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Feb 1 18:21:10 2011 -0600
+
+    Regenerate gemspec for version 1.2.6
+
+commit 9e61639069c3d89405aa415607d8343965889ad5
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Feb 1 18:21:04 2011 -0600
+
+    Version bump to 1.2.6
+
+commit e5906ecc740c5f73e03829127ef618a010cc2d83
+Author: mauro <maurotorres@gmail.com>
+Date:   Thu Jan 27 12:55:48 2011 -0300
+
+    method for current_user
+
+commit 20f70f9d378efd8155a1a9fa8160deeeb64ff7e7
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 20:38:00 2011 -0600
+
+    new versions gem
+
+commit befeeaef5442aa1fcc8f991176a2246a469c5b59
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 20:31:25 2011 -0600
+
+    Regenerate gemspec for version 1.2.5
+
+commit a5323b0448190a6ad125ef543eebc02a39ccdf8d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 20:30:46 2011 -0600
+
+    Version bump to 1.2.5
+
+commit 1b8fa041c5ce68990234f57c1627a66b09e398cc
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Jan 26 16:12:28 2011 -0300
+
+    new method for get current user name
+
+commit 032b46a474e0b41d6e62194fbc530884c4794611
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Jan 26 16:02:38 2011 -0300
+
+    new method for get current user name
+
+commit b112e3b408136aee85a3c359e5a0952b444dc76a
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 09:45:12 2011 -0600
+
+    gem spec
+
+commit 7911db9a0332f57fde6c79c0f01f571738459844
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 09:23:53 2011 -0600
+
+    Regenerate gemspec for version 1.2.4
+
+commit 65520ba7cbededd1215fcc470681f26baeee55f9
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 26 09:20:59 2011 -0600
+
+    Version bump to 1.2.4
+
+commit 5a61bf03c2ecfa862b1d410173983a64076ca4ed
+Author: Sangmin Ryu <neocoin@gmail.com>
+Date:   Tue Jan 25 17:46:54 2011 -0800
+
+    add dependency builder
+
+commit af1cad51e8bd36b53625575a78181ae0b24fabf7
+Author: mauro <maurotorres@gmail.com>
+Date:   Tue Jan 25 18:15:00 2011 -0300
+
+    adding support for developer tag
+
+commit e8be1586e7e55025dcaa99885bde589611424776
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Fri Jan 21 02:13:03 2011 -0500
+
+    Added ability to parse profile feed
+    -added attributes to user model
+    -created ProfileFeedParser
+
+commit 421d7e5b1b6aa564b05e6f8a86d4de1ab7bb0d9f
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Thu Jan 20 02:01:34 2011 -0500
+
+    Upgraded handling of comments
+    -Extended FeedParser to CommentsFeedParser
+    -Modified comments() in client.rb to take a hash with search parameters
+
+commit a2162e17b66afb6c7da324f72b4446f326dbbdb6
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Wed Jan 19 21:47:40 2011 -0500
+
+    removed Logger line client.rb, eliminating print during videos_by()
+
+commit 4a36d6f0e3da0f8b73987d31150be49d957f7cc7
+Author: Chris Dahms <zentrification@gmail.com>
+Date:   Wed Jan 19 21:18:55 2011 -0500
+
+    changed readme
+
+commit e8619f7fc5bfa4e7ca494a27f6958a1bf597a9ba
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 10:00:55 2011 -0600
+
+    built gem
+
+commit cfd4d144f1f79fd5eea45296c8638485a0720b20
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:14:06 2011 -0600
+
+    Regenerated gemspec for version 1.2.3
+
+commit c6105a512d0e034db25da561c1042a844ae203d5
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:14:03 2011 -0600
+
+    Version bump to 1.2.3
+
+commit 24943e5cd970c55fb4b337873e905156b04894c5
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:13:42 2011 -0600
+
+    gem spec
+
+commit d35d7c4771e35e383b7cb581d4370ba30536768a
+Merge: fa5783f f6668b7
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:10:20 2011 -0600
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit fa5783fed882ac093724114626a01658a0aacd18
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:10:08 2011 -0600
+
+    Regenerated gemspec for version 1.2.2
+
+commit 797667051e5e52cec7bbd971388b4702f6da37fc
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 09:09:47 2011 -0600
+
+    Version bump to 1.2.2
+
+commit f6668b729fe1976601cc8bba03d406b6298bcbeb
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Jan 19 12:07:13 2011 -0300
+
+    readme
+
+commit db6d1722890b791ab681804dc7ef8a65bcc04d75
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Jan 19 12:03:32 2011 -0300
+
+    tests for playlists_for method
+
+commit cadf730e396be1aeac4b51681a2db755b49e0ccf
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 06:31:19 2011 -0600
+
+    playlists for user
+
+commit dc39e2a787d3857b40ff4885fbfaca4ab5ed4834
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 06:31:11 2011 -0600
+
+    playlists for user
+
+commit d5dd72c4e8c9a50218cebe3e8d7957dfc0175db1
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 06:21:54 2011 -0600
+
+    Regenerated gemspec for version 1.2.1
+
+commit 0c2fc0647a54b4f996c1843e6631f51e72bd4857
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Jan 19 06:21:47 2011 -0600
+
+    Version bump to 1.2.1
+
+commit b2c9e8172122f5d98f546d5c0bbe5f2fb366618e
+Author: mauro <maurotorres@gmail.com>
+Date:   Tue Jan 18 18:00:19 2011 -0300
+
+    fixing typo for oauth
+
+commit 045d2fb35a9f5855b55b3eeb13f59898d098acb9
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sun Nov 28 07:12:32 2010 -0600
+
+    released the new version
+
+commit 057ed05652702122f0d23a2b4d55907ee4e28ed9
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sun Nov 28 07:11:34 2010 -0600
+
+    Regenerated gemspec for version 1.2.0
+
+commit 12c24eff877f336b9876243f7a7341af9a494174
+Merge: 64293f3 5b1b1c5
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sun Nov 28 07:11:19 2010 -0600
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit 64293f33ccaf44f814668121c9ffe23cba82b35d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Sun Nov 28 07:11:13 2010 -0600
+
+    Version bump to 1.2.0
+
+commit 5b1b1c5051d0723c8be86d1f277702e1ca2ef068
+Author: mauro <maurotorres@gmail.com>
+Date:   Fri Nov 26 20:55:25 2010 -0300
+
+    support for authsub auth
+
+commit 0336056853d50276b84bb701b08730fdbda64931
+Author: mauro <maurotorres@gmail.com>
+Date:   Fri Nov 26 19:24:20 2010 -0300
+
+    support for authsub auth
+
+commit 402ca254526f1fdd7eb1d8db0c3bd657b953abc7
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Nov 26 10:43:27 2010 -0600
+
+    version bump
+
+commit b5458d6245d41e0d55ebc266e9f95a29252d5295
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Nov 26 10:42:12 2010 -0600
+
+    Regenerated gemspec for version 1.1.0
+
+commit 84dfdf73666eee522077c187ebb8a6cca0a7667d
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Nov 26 10:41:45 2010 -0600
+
+    Version bump to 1.1.0
+
+commit 79d1f35d009e6d8b5356d04bd59e5a334fb31997
+Author: mauro <maurotorres@gmail.com>
+Date:   Thu Nov 25 17:11:48 2010 -0300
+
+    get current user for oauth
+
+commit 6e3b29dc1792d9ab63a1e563a7ef0387b7483ad9
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Nov 24 15:39:09 2010 -0600
+
+    1.0.0 as we support oauth now :)
+
+commit b6facc4ef269c761b3f2fb7ef694c7175eb734ad
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Nov 24 15:37:46 2010 -0600
+
+    Regenerated gemspec for version 1.0.0
+
+commit 7811a5897c59188470dac220d2d367c52395bf7a
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Wed Nov 24 15:37:34 2010 -0600
+
+    Version bump to 1.0.0
+
+commit ed8d1d3a64351abf5f073e0f2274181927c4708f
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Nov 24 18:16:37 2010 -0300
+
+    adding oauth support for all methods
+
+commit 5e72ec1a6050a773d5f0649f2c39fbe5d8d683d7
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Nov 24 14:30:42 2010 -0300
+
+    fixing update and delete method for oauth
+
+commit f4c16fe90de9deebec940b17a931e19b925f330d
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Nov 24 12:43:17 2010 -0300
+
+    new way of initialize for oauth
+
+commit 9cab9cdbbb3ff5a48cc2b8ffc8c70d54513909c5
+Author: mauro <maurotorres@gmail.com>
+Date:   Wed Nov 24 11:38:53 2010 -0300
+
+    fixing token form for oauth
+
+commit f84b092d5ccf1232fc28f8091cd9c080e2327cbb
+Author: mauro <maurotorres@gmail.com>
+Date:   Tue Nov 23 17:56:55 2010 -0300
+
+    fixing token form for oauth
+
+commit 5ec904c25fc0ef22302e9f6063a872c219bcd947
+Author: mauro <maurotorres@gmail.com>
+Date:   Tue Nov 23 16:35:09 2010 -0300
+
+    fixing oauth support
+
+commit 222ec3b632c51bcdc2af91b5e5f6e641ee7418e6
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Wed Nov 10 10:15:29 2010 -0300
+
+    language support for video search
+
+commit f3422ca4db8d5dfa3727ead0ee4821552faab9f8
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 9 16:02:43 2010 -0600
+
+    new version
+
+commit 4e150c00ee7078e7e6aa3628b12f6dccc91824a5
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 9 16:01:50 2010 -0600
+
+    Regenerated gemspec for version 0.0.8
+
+commit f23330ec7eadfde0efbd2e094f36a9d5e534b669
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 9 16:01:46 2010 -0600
+
+    bump version
+
+commit 25a2a8df2e24ba262aa19811f4e4f10e781575d7
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 9 16:01:04 2010 -0600
+
+    git ignore
+
+commit 6242e5e4825a03374bad86d3fe7d9b008298ff7f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Nov 9 15:59:49 2010 -0600
+
+    git ignore
+
+commit 5b5fc882f344832f5170dde7533193299ce7aa70
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Nov 9 16:02:44 2010 -0300
+
+    adding support for use dev_key in the searches
+
+commit bcf483a398594ca9ffdb40b645b7f61590d1425c
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Nov 9 11:19:58 2010 -0300
+
+    fixing tests
+
+commit 79bf52a1f691da8c2d89c4a97beff03752f01ceb
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Nov 8 18:30:51 2010 -0300
+
+    widescreen support
+
+commit 4e5b6c66578fc0b47ce2f180f919b02e27a68055
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Nov 8 18:16:11 2010 -0300
+
+    widescreen support
+
+commit 9f1be20a4cae77cfae7c28be6623dae4a91812fc
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Oct 18 07:59:34 2010 -0500
+
+    Regenerated gemspec for version 0.0.7
+
+commit 0a883af8ff2a160fe4d687b9a31f5d90f06475b3
+Merge: 399deb4 bc2a050
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Oct 18 07:58:23 2010 -0500
+
+    Merge branch 'master' of github.com:kylejginavan/youtube_it
+
+commit 399deb434f947d72d02bd8ec744a953b833b92b4
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Oct 18 07:57:24 2010 -0500
+
+    remove textmate project file
+
+commit bc2a0507c3d5a26e37c48e6072b0e85746233616
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Thu Oct 7 15:16:41 2010 -0300
+
+    new changes
+
+commit 033c05f750c778dead8084f2bd438e03d8088a4c
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Thu Oct 7 15:16:13 2010 -0300
+
+    Version bump to 1.1.1
+
+commit 315ce3317a1f0caa212d98f3ddebb43c793e3258
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Thu Oct 7 15:16:07 2010 -0300
+
+    Version bump to 1.1.0
+
+commit c6b37974bdd70630c1f40530c7c61c5f624093e0
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Thu Oct 7 15:16:01 2010 -0300
+
+    Version bump to 1.0.0
+
+commit 7b54a9acd588954d8fa017ce8de3598fff636362
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Thu Oct 7 10:00:36 2010 -0300
+
+    new features and changes
+
+commit 64fc6388e4ffe1038a6aa180a269173ad0cf43dd
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Oct 5 18:12:06 2010 -0300
+
+    fixing test
+
+commit 2d8847599692d2342ecd066443e7efbd043fabe5
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Oct 5 18:11:45 2010 -0300
+
+    fixing upload, update and favorite methods
+
+commit d49b20c2e0e9f6b78530fd220cd6657bdf4aead9
+Merge: 15930b6 cc69fce
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Sep 6 09:00:33 2010 -0500
+
+    Merge remote branch 'mickey/master'
+
+commit 15930b6a34cbd7f41a1f9b1f74440213fad5af9b
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Sep 6 08:48:41 2010 -0500
+
+    merge request from tom
+
+commit 75abc938989808937eb26664ec399a552ec77cb5
+Merge: e8f484a 5339d02
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Sep 6 08:17:07 2010 -0500
+
+    sync
+
+commit e8f484a0509dc91db1708d53c1696b0c5c2b3695
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Sep 6 08:16:38 2010 -0500
+
+    sync
+
+commit c0e1d0e1ff7bd8efbb204b81e425b3c25f53cc75
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Mon Sep 6 08:16:31 2010 -0500
+
+    sync
+
+commit 5339d024bf37be10b6d78ad3a90be04250bee0d0
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 05:18:57 2010 -0500
+
+    Version bump to 0.0.6
+
+commit 615ef326f24cadec950f5e16c75f451bb4646400
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 05:18:24 2010 -0500
+
+    oauth for delete method. clean up code
+
+commit 5ed7f1dda1d7a41295f8efa58b1829785d7d8b83
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 03:22:36 2010 -0500
+
+    updated gemspec
+
+commit 50e3b8305480fa01985917ff163a91ea07df4e2d
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 03:19:13 2010 -0500
+
+    remove pkg directory
+
+commit 3bd7c0a5100766dcbd0e66118445656860345c44
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 03:17:30 2010 -0500
+
+    Version bump to 0.0.5
+
+commit 366c747e4b4d9b91415849c93e4912ce9fc8ca6b
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Mon Sep 6 03:17:12 2010 -0500
+
+    added oauth. see readme
+
+commit cc69fcea1e45cc901aaab39a692556879c6281c8
+Author: Michael Bensoussan <mike@new-host-2.home>
+Date:   Mon Aug 16 00:15:14 2010 +0200
+
+    added simple support for youtube playlists
+
+commit 32d6a735f50a3cf8707793e969b956f0fae3fe68
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 11:11:23 2010 -0500
+
+    documenation update
+
+commit 7bd399ba8c09a1580eca80f078f08893fb517446
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:57:07 2010 -0500
+
+    clean up on hisory, rakefile and readme
+
+commit 8cc6eec388996d36af9337efc2e776f0659d8327
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:35:32 2010 -0500
+
+    Regenerated gemspec for version 0.0.3
+
+commit 25622825acf195d507a54c1f7705f06651d49d8b
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:35:23 2010 -0500
+
+    ACL support
+
+commit 07617d3c6bbef68d00183b15c1f98f87f27b3092
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:35:19 2010 -0500
+
+    ACL support
+
+commit 613ab8d5c31110e6293d74bd266edc8fb5df904a
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:34:52 2010 -0500
+
+    Version bump to 0.0.3
+
+commit 990a11878f6019091043c5364a1f61b5fc89226f
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Thu Aug 12 08:33:34 2010 -0500
+
+    sync
+
+commit a7443509e76b282847d48fb22e4cd1895e95e953
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 18:02:29 2010 -0300
+
+    favorites support
+
+commit 5f0c1823003e84fc6e61119965c22528d5fc9c3e
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 18:01:55 2010 -0300
+
+    tests
+
+commit c0f22ccf573f38e2a2d18e97c82ad4b537445f54
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 18:01:45 2010 -0300
+
+    README
+
+commit f163e534b3364a702988cebb057f6167e6dcac08
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 16:13:44 2010 -0300
+
+    comments support
+
+commit 64b7cdaa1784e11d225f663ae36554571ac99c59
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 16:13:16 2010 -0300
+
+    readme
+
+commit aa03c4555482fd3b7e8a5a2ce8f4ae58dd59077b
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 16:12:28 2010 -0300
+
+    tests
+
+commit d3aaf517f159ea620474801f90519792323e679e
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Aug 9 11:37:08 2010 -0300
+
+    readme
+
+commit c5eb3e9a5438a364be23b5fe5ce748d02789f47c
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Fri Aug 6 09:09:51 2010 -0500
+
+    rake file fix
+
+commit 8ad7ce25a5dd7646c8a0e6b8ffe7290382d8f93b
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 13:46:53 2010 +0800
+
+    Regenerated gemspec for version 0.0.2
+
+commit f3a83332b48fbbbae44cdb3692dcce111601f11b
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 13:46:45 2010 +0800
+
+    update Rakefile
+
+commit 1ff5040ed7c4216142c5163f15cf4383a07fbc70
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 13:40:47 2010 +0800
+
+    Version bump to 0.0.2
+
+commit 029f2f3a2131836d78c457139f57103c822d746b
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sat Jul 24 15:55:14 2010 +0800
+
+    new accessControl directives. use version 2 of api. http debugging option
+
+commit b0796456c396d8c6ec71b1196457fcc76ebb5463
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 03:08:15 2010 -0500
+
+    Version bump to 0.0.4
+
+commit 8a55fbf2d314306027b5a5debb027772c10d0d24
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 02:34:00 2010 -0500
+
+    Regenerated gemspec for version 0.0.3
+
+commit f3189472510da394d5c1403e1c436d69af1eba6f
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 02:33:46 2010 -0500
+
+    Version bump to 0.0.3
+
+commit fa5adb01b9324300444991ce66c997863d05af4f
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 02:30:17 2010 -0500
+
+    Regenerated gemspec for version 0.0.2
+
+commit 1bbbf957438cdc9f59fb8cf4c62761d26bcbf2f1
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 02:30:02 2010 -0500
+
+    clean up project artifacts from name change
+
+commit 695eef635e057e475da8c531251870c2021935d6
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 01:01:11 2010 -0500
+
+    changing gem name so it is accessible on rubygems.org
+
+commit b76dd1c947da74fd008fdb727701ca93dfeebf30
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 00:46:53 2010 -0500
+
+    Regenerated gemspec for version 0.0.2
+
+commit 5a2e0af66cdbbd714e42f67fda2d324fb0d3131d
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 00:46:45 2010 -0500
+
+    update Rakefile
+
+commit cb062b4b8999f726ce41c30b89161c585745b11e
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sun Jul 25 00:40:47 2010 -0500
+
+    Version bump to 0.0.2
+
+commit 24316962d6a171697724eae25e6d57a546cc33c5
+Author: Tom Brown <herestomwiththeweather@gmail.com>
+Date:   Sat Jul 24 02:55:14 2010 -0500
+
+    new accessControl directives. use version 2 of api. http debugging option
+
+commit a56e58c1190d6242b5980d4576852ae3c15aa2ca
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Jul 6 16:07:44 2010 -0500
+
+    released 0.0.1
+
+commit 297897e898683abe18201e995c53c68638b41ddb
+Author: Kyle J. Ginavan <kylejginavan@gmail.com>
+Date:   Tue Jul 6 16:05:12 2010 -0500
+
+    gem spec
+
+commit c10f1ba6e6fc55e49f98cc625372c944df70c76b
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Jul 6 17:57:22 2010 -0300
+
+    rakefile
+
+commit ef2666ccd1b2675c07f9ad2b9fc0626e6368d46a
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Jul 6 17:19:52 2010 -0300
+
+    support upload from browser
+
+commit b0120dd4fb8e20d15a43cc3c1557fcaa2cb81d79
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Jul 6 17:18:18 2010 -0300
+
+    rakefile
+
+commit d904edede680a828af57f6d9c748bf972d4458f4
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Tue Jul 6 17:17:48 2010 -0300
+
+    tests
+
+commit 3380fed080d7ef30b2ebad21e4210eecd89bb75a
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Jul 5 17:15:58 2010 -0300
+
+    little fix: can parse url or some data
+
+commit 6b5c384b8721eed0229d337c862676c4cf2ce07b
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Jul 5 17:07:23 2010 -0300
+
+    find by user a single video
+
+commit fa2909199e60a9842e3eadb515f041e8dac8bf8a
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Jul 5 16:49:30 2010 -0300
+
+    adding suport for uploads from browser
+
+commit 1a2b76d600faac207a150bd4b60e63d85198f80a
+Author: mauro torres <maurotorres@gmail.com>
+Date:   Mon Jul 5 16:47:43 2010 -0300
+
+    rename to youtube_it
+
+commit 701819639cb3cd9ff3245d89ebe052296ba15aec
+Author: tmm1 <aman@tmm1.net>
+Date:   Tue Dec 1 14:49:42 2009 -0700
+
+    Fix for Ruby 1.9 (thanks to Pius Uzamere)
+
+commit 4a00a68844493611b3633cd640b18481b9efe241
+Author: Benjamin Behr <benjamin.behr@mindmatters.de>
+Date:   Mon Mar 23 23:41:06 2009 +0800
+
+    added: favorite statistics
+
+commit 29d2424c6bd42c2ec11244ecd387a9c428bf7d24
+Author: Andrius Chamentauskas <sinsiliux@gmail.com>
+Date:   Mon Nov 30 21:05:03 2009 +0800
+
+    Fixed response code 201 being interpreted as error. Started using XmlMarkup instead of XML.
+
+commit 57d26ae6a24b090394fc5b0ac13b83cef1292844
+Author: Andrius Chamentauskas <sinsiliux@gmail.com>
+Date:   Mon Nov 30 21:04:00 2009 +0800
+
+    Fixed deleting video
+
+commit 26e05f56199ae811fa7237e657b5492be5343057
+Author: Julik <me@julik.nl>
+Date:   Tue Mar 3 14:44:08 2009 +0100
+
+    generate_update_body was not used anywhere anyway, because the update request needs not to be multipart
+
+commit ec4cba4268999764d577cb5d283955640d1513c3
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 20:10:33 2009 +0100
+
+    Split hosts
+
+commit ca4a7cb247bcb13c384406e50eed6c922e154ae1
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 20:07:18 2009 +0100
+
+    Writeup of changes
+
+commit 87efba3a8707500bfc697cb014ba239e05b32e65
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 20:05:50 2009 +0100
+
+    Some doc gardening
+
+commit e9cde5276961c76b02b765e0d0ec2b60bd9814e0
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 20:02:34 2009 +0100
+
+    Update the gemspec
+
+commit e6de70506a6ff600411dad2081602e19e0e162cb
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 20:01:15 2009 +0100
+
+    Remove the "if logger" situation and explain how to control logging by hand. Rewriting the Logger class here is an odd entertainment practice
+
+commit 06c0c560b6e2f768363c7866e7e5932f5d877d8b
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 19:12:51 2009 +0100
+
+    Add a small remark
+
+commit 0f1b2ffe98202707906cee2718eb8c32e49ab345
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 19:05:07 2009 +0100
+
+    Make VIdeoUpload parse well again, not having tests here actually hurts
+
+commit 6330da3691ac197f0d8566225f17a7f1a1f1fb84
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 18:23:47 2009 +0100
+
+    Fix a couple of typos
+
+commit 5ab35c5e79d544a2d81429c021fe3a4c91c7fab6
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 18:21:05 2009 +0100
+
+    Put msp in the authors list
+
+commit 379b863e0b4efe3602d106225fd001844d011d49
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 18:19:46 2009 +0100
+
+    Integrate update and delete methods, refactor some more common bits. Do not pass boundary explicitly because it's available on the object itself
+
+commit cbebb5c753c5400ebf2a02fb92fa691bcd381c66
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 17:57:09 2009 +0100
+
+    Mention that the builder gem is now required
+
+commit b794526ae9a821406d9e11c21220acf50dd8da64
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 17:24:49 2009 +0100
+
+    Small mods
+
+commit f79127bc561d7cc264f62522b60684635c756035
+Author: Julik <me@julik.nl>
+Date:   Mon Mar 2 17:24:24 2009 +0100
+
+    Reworder README a notch
+
+commit a30a6789b9004aa509a903f80ef9337897fd5ce5
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 16:01:00 2009 +0100
+
+    Raising an Exception considered harmful. Make a built-in error class and inherit from it instead. This also helps consistent error handling in user code
+
+commit edcab52e13ede7c4aaff8c2b81f5506b0033cbe0
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 15:07:29 2009 +0100
+
+    private IS :nodoc:, anyways
+
+commit 291d74f655adc874b2f9875d7d52c73a1414902c
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 15:03:30 2009 +0100
+
+    Uncomplexify build_query_params by a factor of 45
+
+commit e8f2887291f99e6585add81532e7f7a2e8e35ae4
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 14:48:08 2009 +0100
+
+    Update the gemspec and dependencies, do not use cgi.rb - we can serve ourselves with the Camping escaper instead (it's faster too!).
+    
+    Add version.rb so that the gem can be built without requiring the whole library, extract the test helper commons
+
+commit 86c1971be5236fbf4f5496f44ca641635dfbc759
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 14:40:36 2009 +0100
+
+    Restructure things in a less ___lorish way
+
+commit f161fbbb7bd476bd60b54131f722fb01126e9f8f
+Author: Julik <me@julik.nl>
+Date:   Thu Feb 26 12:42:38 2009 +0100
+
+    Register latest changes
+
+commit b9417c5f9d5fec9ffa5e23506df214a2659e4353
+Author: Julik <me@julik.nl>
+Date:   Wed Feb 25 08:03:48 2009 +0100
+
+    Attach the new parts, use Builder for XML packet gen
+
+commit c5ecc4f9cb1da06b7e5f2ad3ce4c279162e21e1a
+Author: Julik <me@julik.nl>
+Date:   Wed Feb 25 08:00:52 2009 +0100
+
+    Add ChainIO for dealing with uploads coming from sockets
+
+commit 7cc283454aad7d34ec92e07fed330a00b55bc79f
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Wed Jan 7 23:21:51 2009 -0800
+
+    update changelog
+
+commit 65e67172e2df454f4794950779e4e320a0a3b2fc
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Wed Jan 7 23:20:05 2009 -0800
+
+    version bump
+
+commit 92cf37de0bf035a85221c1c743ffa981745d9b36
+Merge: 14eaac1 128e6cf
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Wed Jan 7 23:15:11 2009 -0800
+
+    Merge branch 'master' of git@github.com:tmm1/youtube-g
+    
+    * 'master' of git@github.com:tmm1/youtube-g:
+      fixed the problem where finding a user's favorites would fall back to finding the user's uploads
+
+commit 128e6cfae981bef02e4fb1fbca0bd7e942334e2d
+Author: Pius Uzamere <pius+git@alum.mit.edu>
+Date:   Tue Nov 25 07:16:49 2008 +0800
+
+    fixed the problem where finding a user's favorites would fall back to finding the user's uploads
+    
+    Signed-off-by: Aman Gupta <aman@tmm1.net>
+
+commit 14eaac1dc412150c93a1590039bf6b2399d97cbd
+Author: Carlos Kozuszko <ckozus@gmail.com>
+Date:   Sat Sep 6 17:11:28 2008 -0300
+
+    Adding example on README.txt to retrieve favorited videos.
+
+commit e474a2d59ce3863adb33ee4c281e84fc6597bcf0
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Tue Sep 2 02:47:36 2008 -0700
+
+    version bump
+
+commit d424400ac1142344543bdbc1fe9860dd0dc4f0cd
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Tue Sep 2 02:47:06 2008 -0700
+
+    Add Geodata information (thanks Jose Galisteo)
+
+commit 7257f254d731443b85c0ccb119febdba978352de
+Author: Layton Wedgeworth <laytonw@layton.local>
+Date:   Sat Aug 16 12:58:15 2008 -0700
+
+    Added test for UserSearch pagination, Made URL param building determenistic by sorting param keys
+
+commit d7c871c0f720d1bc8604f8a4545ea5353d142ed1
+Author: Layton Wedgeworth <laytonw@layton.local>
+Date:   Sat Aug 16 12:16:09 2008 -0700
+
+    Add pagination to UserSearch
+
+commit cbee7217a01c91b6202b5c13e3c3a11762769e86
+Author: Layton Wedgeworth <laytonw@layton.local>
+Date:   Sat Aug 16 12:10:54 2008 -0700
+
+    Provide sane defaults if page and per_page are not integers
+
+commit 72702a3ca543c1c2fc66a8bc6f4285814b025049
+Author: Layton Wedgeworth <laytonw@layton.local>
+Date:   Sat Aug 16 11:54:27 2008 -0700
+
+    Make YouTubeG::Response::VideoSearch compatible with will_paginate
+
+commit c64d3fabacac9fb650a4f62c56e0cdc14304f871
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sun Aug 3 03:19:30 2008 -0700
+
+    update gemspec with latest files
+
+commit afbb5e838b3a3d1e3a297062611cddbe876425ec
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Fri Aug 1 23:07:39 2008 -0700
+
+    gemspec bump
+
+commit f2749af77e0e33b930eeab9579c11e05c9c8cebd
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Fri Jul 11 10:08:21 2008 -0700
+
+    Fix typo in README
+
+commit c5dff6be396ca2a6c22cbbc6136b46b70f9cf5bc
+Merge: 4783761 be62d5e
+Author: Daniel Insley <dan@viviti.com>
+Date:   Tue Jul 8 09:37:03 2008 -0700
+
+    Merge branch 'master' of git@github.com:dinsley/youtube-g
+
+commit 4783761a28feb0a3bb3cf5ef61cba4a45bb2c289
+Author: Daniel Insley <dan@viviti.com>
+Date:   Tue Jul 8 08:13:41 2008 -0700
+
+    made it backwards compatable with offset and max_results, so theyre still available for more custom queries people may need
+
+commit be62d5ecaa992157857fa097215644dbd0344327
+Author: Daniel Insley <dan@rubymonk.com>
+Date:   Mon Jul 7 17:10:54 2008 -0700
+
+    dir glob loading of files didnt work so well, reverting dependency loading to how it was before!
+
+commit 2bca90063341874652f8f0c4045eab5c5fabc18d
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 16:32:18 2008 -0700
+
+    Added :page and :per_page options, this allows easier usage of the will_paginate
+
+commit 4d516a83e57ca96697c89eade8046787121efdd6
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 15:01:07 2008 -0700
+
+    added the ability to get video responses
+
+commit 933dec9b0c2e1a74531ddabfdc90dd598b49ab99
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 14:07:02 2008 -0700
+
+    added the missing standard feeds from http://code.google.com/apis/youtube/reference.html#Standard_feeds
+
+commit 48363eff4738fec2f11d8bdd1dc2591c9440c1fd
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 12:03:16 2008 -0700
+
+    moved request classes into seperate files, and some minor refactoring
+
+commit 5f24804f3f9fdb29f2e3d2667bf8251f1102bfd1
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 11:34:21 2008 -0700
+
+    finished up documentation additions and tweaking
+
+commit 1708ef41834b41dc6e6e2a93d1f6420f347f3094
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 11:07:14 2008 -0700
+
+    added console rake task to easily load an irb session with the library
+
+commit 0fc9391cff95daf591be478731554e45976dfc0d
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 10:48:44 2008 -0700
+
+    updated todo list
+
+commit 71bdd45a6cefbfbfa2a62d64f9b4bc10ee03b2a9
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 10:47:12 2008 -0700
+
+    consolidated requires and made it so that every ruby file within the lib/youtube_g directory are automatically required
+
+commit 13f0d29b1432f9bc5ae7bd46ea4f5961d4b2829e
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 10:11:33 2008 -0700
+
+    updated history and TODO files to reflect changes made up to now
+
+commit 1cd6b8831870575945df72cfe93711c818912eab
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 09:53:08 2008 -0700
+
+    whoops, forgot to update namespace for rating node in the xpath expression
+
+commit 9401af5076ac528e840490afee1770f2808bf2ef
+Author: Daniel Insley <dan@viviti.com>
+Date:   Mon Jul 7 09:51:32 2008 -0700
+
+    documentation additions and updated node that racy data was being parsed from yt:racy is deprecated
+
+commit 1fc44710860ac262fc1c45f831b239825d224ac3
+Author: Daniel Insley <dan@rubymonk.com>
+Date:   Thu Jul 3 20:42:40 2008 -0700
+
+    renamed video can_embed? method to embeddable?
+
+commit 0daad76d42d7f595f1257eacac438809ddd1e20e
+Author: Daniel Insley <dan@rubymonk.com>
+Date:   Thu Jul 3 20:40:06 2008 -0700
+
+    added lots of documentation, and fixed existing docs
+
+commit 1d023db2f8bf070663855388ce599a8c15583138
+Author: Daniel Insley <dan@viviti.com>
+Date:   Thu Jul 3 14:16:21 2008 -0700
+
+    standard feed options added for pagination and ordering, documentation cleanup
+
+commit 9b594d995179656dafa2edf1f06f5cd4eb9f3369
+Author: Daniel Insley <dan@viviti.com>
+Date:   Thu Jul 3 11:37:03 2008 -0700
+
+    fixed failing tests due to youtube api changes, and disabled logger by default
+
+commit 05c22101988dbace8f6c61d072e1ef81b55fbf1b
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Fri Jun 27 17:48:38 2008 +0200
+
+    Added more UploadError checking to video uploads.
+    
+    If the response code from the upload to YouTube isn't 201 Created, then the errors are parsed from its return xml.
+    These errors are then added to the UploadError as message in the following format:
+    invalid key 1: error_code\r\n
+    invalid key 2: error_code\r\n
+    
+    For example, if you leave the description and title empty, you will get:
+    title: invalid_character\r\n
+    title: required\r\n
+    description: invalid_character\r\n
+    description: required\r\n
+    as message for the UploadError.
+
+commit 29ebdf8b6e680a9609ef5a3264aae6d37f3f4913
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Fri Jun 27 17:33:10 2008 +0200
+
+    Added an AuthenticationError that will be raised when a HTTP status code 403 is raised during upload.
+    
+    The message of the AuthenticationError contains the short description in the HTML's title tag that was received from YouTube.
+
+commit 30e29045091b54e6638c69d133364cbd1702a361
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Fri Jun 27 17:27:42 2008 +0200
+
+    Added support for uploading videos as private media.
+    
+    You can now specify the :private option with the YouTubeG::Upload::VideoUpload#upload method.
+    If it is not specified, then the video will remain public.
+
+commit 4953468817aec8182131fad8d42d7372ecea5080
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Thu Jun 26 18:44:47 2008 +0200
+
+    Bugfix: passing the HTTP response's body to REXML instead of the entire HTTP response.
+    
+    Fixes the following error:
+      RuntimeError: Net::HTTPCreated is not a valid input stream.  It must walk like either a String, an IO, or a Source.
+
+commit d0e0199047498ff836ba328908b6aca705e31734
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Thu Jun 26 18:42:28 2008 +0200
+
+    Bugfix: the Upload's http response code is now properly checked.
+    
+    the http response code is a string, and thus needs to be typecast to an integer if you want to compare it with an 200 integer.
+
+commit 59bda607d62cd629968714b242a7a397c3e9e96b
+Author: Filip H.F. "FiXato" Slagter <fixato@gmail.com>
+Date:   Thu Jun 26 17:35:18 2008 +0200
+
+    Bugfix: uploadHeader now uses the auth_token method instead of its instance variable.
+    
+    The auth token wasn't being requested from google, since the method which retrieves it wasn't being called.
+    The @auth_token instance variable which was passed along in the uploadHeader is set by the auth_token method instead.
+
+commit 1651003e3332636d3ce36fae1a91f8804114ffcb
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Wed Jun 11 14:41:10 2008 -0700
+
+    avoid modifying video_id passed into #video_by
+
+commit 0eaeede975822c62b071cf5bd8ac4db3357a7522
+Author: Matt Aimonetti <mattaimonetti@gmail.com>
+Date:   Tue Jun 10 22:42:53 2008 -0700
+
+    added support for a video search by author
+
+commit d9f3744b35f9c8a7979c2f6e4092b5d49f48c2c0
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 22:40:39 2008 -0700
+
+    Add gemspec for github
+
+commit 09c4ef2bd6bbeef803dd57033c47da42faaaa53e
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 22:25:44 2008 -0700
+
+    Add basic support for uploading videos [thanks Joe Damato]
+
+commit 61eaf7e2fa6631a10e19ec2d5378670e9e1bb256
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 22:15:23 2008 -0700
+
+    Version bump
+
+commit c9cd21dd88530acad1c623c244ffcfd309326a65
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:55:20 2008 -0700
+
+    Add basic support for related videos
+
+commit 4215141012fb32ffac7bcd1b340d33c37be8b92e
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:43:34 2008 -0700
+
+    Improve docs for order_by attribute [thanks Jason Arora]
+
+commit bde0aeaf259eaa070c2d6f9e70b104b872a17b72
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:42:34 2008 -0700
+
+    Added support for the "racy" parameter (choices are "include" or "exclude") [thanks Jason Arora]
+
+commit 4fd7832e951b89b61aaf016bc6fb9c76d6c10ae5
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:41:15 2008 -0700
+
+    Add missing attribute reader for description
+
+commit 4da8554af20007c37873f0034f8ade5f159cb478
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:34:50 2008 -0700
+
+    Fix issue with missing yt:statistics and viewCount
+
+commit 31d9bdc5b726c5b0ce369b7e1070fa79e8d2fdbb
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:28:03 2008 -0700
+
+    add RDoc and Google group links to README
+
+commit ee90377143dfd9edd639f07ad2cf4470ebd57df5
+Author: Aman Gupta <aman@tmm1.net>
+Date:   Sat Jun 7 21:26:29 2008 -0700
+
+    Allow Client#video_by to take either a url or a video id
+
+commit b26bb655becc5448ca68c1bb7dd3d6a0e0905358
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Feb 11 08:03:32 2008 +0000
+
+    updated docs
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@44 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 36c8b7215c3b9cd31be94f1a2ccab2d4077c511a
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Feb 11 06:39:25 2008 +0000
+
+    fixed tests
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@43 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 12e7688ecc8add32af2dc7ea3457d6fdfc8fc49f
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Feb 11 06:34:49 2008 +0000
+
+    added 3gpp format
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@42 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 81c2280ef02e0f213120d5b0ea6aee64e7bc7e7b
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Feb 11 05:51:32 2008 +0000
+
+    readme and todo updates
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@41 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 7e43b45fdc1e62655f43a1577c166a832dc7ef07
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Dec 20 06:19:54 2007 +0000
+
+    added walter's todos
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@40 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 72b526bc7462175f7d87a12d726bd523f52cfe4d
+Author: shaper <shaper@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Dec 20 06:04:14 2007 +0000
+
+    - minor edits to README, linking to google api doc and code formatting.
+    
+    
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@39 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 5157cd00179d36180b1822d3842d004a85aa7248
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Tue Dec 18 08:19:03 2007 +0000
+
+    Applied patches from Pete
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@37 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit b7d28f99f22f5331e5380512aa53a919968940c1
+Author: shaper <shaper@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Tue Nov 27 16:38:41 2007 +0000
+
+    - fixed test warnings.
+    
+    - make sure to escape all keys as well as values when building urls.
+    
+    - renamed build_url to build_query_params to better match what it's doing now
+      versus before.
+    
+    - made build_query_params gracefully deal with nil or empty params hash, or a
+      params hash with all-nil values.
+    
+    - fixed invalid video type exception string to properly concatenate all valid
+      type name strings.
+    
+    
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@35 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 65df68c76e32bcf319f7e05a1c83bd18bfc6bc72
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Nov 22 18:09:31 2007 +0000
+
+    cleanup for release
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@34 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 74b95c5c2e9e051fd627ac986cad64586de24db1
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Nov 22 18:08:12 2007 +0000
+
+    cleanup for release
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@33 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 194008c2620bc49eb3f39a1f8003330b9682cdb8
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Tue Oct 9 21:07:51 2007 +0000
+
+    added video_by_id
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@32 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit d8e47aae9b2a280859ea5b8ce7feacf20ced7794
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Tue Oct 9 04:16:16 2007 +0000
+
+    fixed can_embed?
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@31 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit c4c7ed78abd9bd9cb48cc237442c35b2a8e45f0d
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Wed Oct 3 04:16:03 2007 +0000
+
+    fixed max size not working for categories
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@30 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 7ec4f2bc44d153db1b8d07010032d319e69ba5d0
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 29 20:02:01 2007 +0000
+
+    search by video id
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@29 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 9c4f8610054142c836f7e6248f2191a09d5ae495
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Fri Sep 28 03:23:07 2007 +0000
+
+    unqiue id
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@28 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 25e6fb745059185001d78466f3bcec2438e638ee
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Fri Sep 28 03:12:53 2007 +0000
+
+    unique id
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@27 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 9473250e2908b1f3828c63c3f74cccfbdf47ccce
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Wed Sep 26 07:15:38 2007 +0000
+
+    fixed thumbnails
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@26 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 3510475af9b6897523cd7208c57161825129dbc3
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 06:05:20 2007 +0000
+
+    instatiate client with a logger
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@25 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 0f51d06e60e5173ca302f5ecbf737b25db2ce18f
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 04:38:19 2007 +0000
+
+    embed_html for videos
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@24 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 9e428a2acaf3decd67bd46f30057e31d803a84c6
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 03:38:49 2007 +0000
+
+    combining vq and categories
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@23 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 065dde5869173e5c710d2a1cf947206caef7f48f
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 03:13:38 2007 +0000
+
+    combining vq and categories
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@22 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 2b016f62e34e366204f27e75969497183f810a00
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 02:07:58 2007 +0000
+
+    favorite videos by user
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@21 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit aa5ca3c07e0b11e62153681d7e849233b2234086
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 01:48:33 2007 +0000
+
+    videos_by(:user)
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@20 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit d0159e71a6fde0e1b928bf3b1c1cae310f9f4933
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Mon Sep 24 01:17:28 2007 +0000
+
+    video tags boolean operators
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@19 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 6346126a1e087c2e30663e86ec9dbfb8743f69e1
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sun Sep 23 23:09:04 2007 +0000
+
+    refactoring...
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@18 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 5e3be7237c8b73787cc64adaccecdf9da03b250a
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sun Sep 23 22:38:52 2007 +0000
+
+    better duck typing
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@17 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 0eda1d308abf5da5408905b2d4f3f11b0ff9bc03
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sun Sep 23 22:34:05 2007 +0000
+
+    video category boolean operators
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@16 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit d72faa747dcddd9a95c26e956162793503390054
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sun Sep 23 22:15:50 2007 +0000
+
+    video category boolean operators
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@15 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 749dd182590d213854bb79e828e5d5b91b9d5e26
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sun Sep 23 21:32:35 2007 +0000
+
+    moved parsing into its own module
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@14 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 6d76840940a28a924e4d1354243fcc235ba1be19
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 08:35:55 2007 +0000
+
+    standard feeds with time option
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@13 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 290334c969efe909080505fe8fbac336113f04fd
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 08:16:37 2007 +0000
+
+    beginings of standard feeds
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@12 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 2d5ffe3ccd9f2e3d3d120c6ccd69bd96d1c4fcc6
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 06:19:18 2007 +0000
+
+    refactoring
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@11 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit b40004bb8cb1ff41194b1465ee521e9ca9aba29f
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 06:14:06 2007 +0000
+
+    refactoring
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@10 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit f2a12aac7a2ac838c9af3fb6e4609cf7320f211e
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 06:01:28 2007 +0000
+
+    request with categories and tags
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@9 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 60b9b63e144ca1ec2c7b22f4b6eadc00aac8c65d
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 05:51:36 2007 +0000
+
+    request url tests
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@8 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit b1043f7faa937d62d2a9f25c62afd51d41529f40
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 05:07:04 2007 +0000
+
+    multiple categories
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@7 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit d977d285e1c622563219ce3d93d22e016e42bb5f
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 05:03:38 2007 +0000
+
+    categories and refactoring
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@6 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 9cfad9f83eb5b5cf68649c51b0c7120a8d6153f0
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Sat Sep 22 03:25:51 2007 +0000
+
+    tests
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@5 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit d77a10ee7bc1d8400bcbad0baac94e2b0aa8bfc8
+Author: shaper <shaper@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Sep 20 22:24:15 2007 +0000
+
+    - moved media content data into a separate record since there may be zero or
+      more entries, and added the notion of a "default" media content record.
+    
+    
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@4 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit f5e55c5d906ffda76722f6be6de2d91a71bf5e48
+Author: shaper <shaper@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Sep 20 21:56:34 2007 +0000
+
+    - filling in a bit of testing and renaming basic video search api method to
+      videos_by.
+    
+    
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@3 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit babbe64b68d53f0c6bb3121ef33d4e09d958c136
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Sep 20 07:12:21 2007 +0000
+
+    beginnings of front end api wrapper
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@2 be00ba05-eb97-4791-a98f-6cad13d5b5dc
+
+commit 5d6342cef806e3cab25b1595d7ae03ca82d1d0f3
+Author: drummr77 <drummr77@be00ba05-eb97-4791-a98f-6cad13d5b5dc>
+Date:   Thu Sep 20 03:39:57 2007 +0000
+
+    Initial hack by shaper
+    
+    git-svn-id: http://youtube-g.rubyforge.org/svn/trunk@1 be00ba05-eb97-4791-a98f-6cad13d5b5dc
